@@ -1,0 +1,17 @@
+# The raw SPARCS file is ~830 MB (GitHub's limit is 100 MB per file).
+# Download it from NY Open Data into data/raw/ - see README "Rebuild the data".
+data/raw/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local tooling and OS files
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
